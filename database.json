@@ -1,126 +1,395 @@
 {
-  "products": [
+  "contacts": [
     {
       "id": 1,
-      "name": "Product001",
-      "cost": 10,
-      "quantity": 1000,
-      "locationId": 1,
-      "familyId": 1
+      "favourite": true,
+      "profileImage": "https://randomuser.me/api/portraits/men/73.jpg",
+      "name": "Leanne Graham",
+      "username": "Bret",
+      "email": "Sincere@april.dadw",
+      "isfavourite": false,
+      "address": {
+        "street_suite": "Kulas Light Apt. 556",
+        "city": "Gwenborough"
+      },
+      "phone": "1-770-736-8031dawdawd",
+      "company": "Romaguera-Crona"
     },
     {
       "id": 2,
-      "name": "Product002",
-      "cost": 20,
-      "quantity": 2000,
-      "locationId": 1,
-      "familyId": 2
+      "favourite": false,
+      "profileImage": "https://randomuser.me/api/portraits/women/3.jpg",
+      "name": "Ervin Howell",
+      "username": "Antonette",
+      "email": "Shanna@melissa.tv",
+      "isfavourite": false,
+      "address": {
+        "street_suite": "Victor Plains Suite 879",
+        "city": "Wisokyburgh",
+        "zipcode": "90566-7771"
+      },
+      "phone": "010-692-6593",
+      "company": "Deckow-Crist"
     },
     {
       "id": 3,
-      "name": "Product003",
-      "cost": 30,
-      "quantity": 3000,
-      "locationId": 3,
-      "familyId": 2
+      "favourite": true,
+      "profileImage": "https://randomuser.me/api/portraits/men/22.jpg",
+      "name": "Clementine Bauch",
+      "username": "Samantha",
+      "email": "Nathan@yesenia.net",
+      "isfavourite": false,
+      "address": {
+        "street_suite": "Douglas Extension Suite 847",
+        "city": "McKenziehaven",
+        "zipcode": "59590-4157"
+      },
+      "phone": "1-463-123-4447",
+      "company": "Romaguera-Jacobson"
     },
     {
       "id": 4,
-      "name": "Product004",
-      "cost": 40,
-      "quantity": 4000,
-      "locationId": 2,
-      "familyId": 3
+      "favourite": false,
+      "profileImage": "https://randomuser.me/api/portraits/women/99.jpg",
+      "name": "Patricia Lebsack",
+      "username": "Karianne",
+      "email": "Julianne.OConner@kory.org",
+      "isfavourite": false,
+      "address": {
+        "street_suite": "Hoeger Mall Apt. 692",
+        "city": "South Elvis",
+        "zipcode": "53919-4257"
+      },
+      "phone": "493-170-9623",
+      "company": "Robel-Corkery"
     },
     {
-      "id": 5
+      "id": 5,
+      "favourite": false,
+      "profileImage": "https://randomuser.me/api/portraits/women/2.jpg",
+      "name": "Chelsey Dietrich",
+      "username": "Kamren",
+      "email": "Lucio_Hettinger@annie.ca",
+      "isfavourite": false,
+      "address": {
+        "street_suite": "Skiles Walks Suite 351",
+        "city": "Roscoeview",
+        "zipcode": "33263"
+      },
+      "phone": "(254)954-1289",
+      "company": "Keebler LLC"
     },
     {
-      "id": 6
-    },
-    {
-      "id": 7
-    },
-    {
+      "name": "Kunal Patil",
+      "profileImage": "https://randomuser.me/api/portraits/men/70.jpg",
+      "email": "patilkunal1071@gmail.com",
+      "phone": "+919737079776",
+      "address": {
+        "street_suite": "ISHWAR NIWAS, NEAR VAKIL HOUSE, GANDHI CHOWK",
+        "city": "Dharmaj"
+      },
+      "company": "dwad",
+      "title": "awa",
+      "favourite": true,
       "id": 8
     },
     {
+      "name": "Ram Sinha",
+      "email": "ram@sinha.com",
+      "phone": "123344567890",
+      "address": { "street_suite": "ABC", "city": "XYZ" },
+      "company": "Sinha Corp",
+      "title": "",
       "id": 9
     },
+    { "id": 10 }
+  ],
+  "users": [
     {
-      "id": 10
+      "id": "f2557a9a-99f4-490d-9446-645320b8683f",
+      "email": "bruno@email.com",
+      "password": "bruno",
+      "username": "bruno Mars"
     },
     {
-      "id": 11
+      "id": "f2557a9a-99f4-490d-9446-645320b8683g",
+      "email": "bruno1@email.com",
+      "password": "bruno",
+      "username": "bruno Jupiter"
     },
     {
-      "id": 12
-    },
-    {
-      "id": 13
-    },
-    {
-      "id": 14
-    },
-    {
-      "id": 15
-    },
-    {
-      "id": 16
-    },
-    {
-      "id": 17
-    },
-    {
-      "id": 18
+      "id": "f2557a9a-99f4-490d-9446-645320b8683h",
+      "email": "bruno11@email.com",
+      "password": "bruno",
+      "username": "bruno Saturn"
     }
   ],
-  "locations": [
+  "boards": [
     {
-      "id": 1,
-      "name": "Location001"
+      "id": "e80ece77-78e7-4d83-b600-9ccf6ce675ce",
+      "name": "Project A",
+      "color": "rgb(255, 117, 117)",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum maxime ut nostrum voluptatibus, exercitationem molestias eos obcaecati voluptatem necessitatibus in.",
+      "userId": "f2557a9a-99f4-490d-9446-645320b8683f",
+      "members": [
+        "f2557a9a-99f4-490d-9446-645320b8683f",
+        "f2557a9a-99f4-490d-9446-645320b8683g",
+        "f2557a9a-99f4-490d-9446-645320b8683h",
+        "f2557a9a-99f4-490d-9446-645320b8683g"
+      ],
+      "tagList": [
+        { "label": "UI", "value": "ui", "color": "rgb(230, 126, 34)" },
+        {
+          "label": "Testing",
+          "value": "testing",
+          "color": "rgb(33, 150, 243)"
+        },
+        { "label": "Deploy", "value": "deploy", "color": "rgb(103, 58, 183)" },
+        { "label": "Bug", "value": "bug", "color": "rgb(253, 203, 110)" },
+        { "label": "Release", "value": "release", "color": "rgb(76, 175, 80)" }
+      ]
     },
     {
-      "id": 2,
-      "name": "Location002"
+      "id": "e80ece77-78e7-4d83-b600-9ccf6ce675c8",
+      "name": "Project A",
+      "color": "rgb(103, 58, 183)",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum maxime ut nostrum voluptatibus, exercitationem molestias eos obcaecati voluptatem necessitatibus in.",
+      "userId": "f2557a9a-99f4-490d-9446-645320b8683f",
+      "members": [],
+      "tagList": []
     },
     {
-      "id": 3,
-      "name": "Location003"
+      "id": "e80ece77-78e7-4d83-b600-9ccf6ce675c9",
+      "name": "Project A",
+      "color": "rgb(0, 188, 212)",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum maxime ut nostrum voluptatibus, exercitationem molestias eos obcaecati voluptatem necessitatibus in.",
+      "userId": "f2557a9a-99f4-490d-9446-645320b8683f",
+      "members": [],
+      "tagList": []
+    },
+    {
+      "id": "5f221d42-7cde-4275-9837-160e665056b4",
+      "userId": "f2557a9a-99f4-490d-9446-645320b8683g",
+      "name": "kunal",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum maxime ut nostrum voluptatibus, exercitationem molestias eos obcaecati voluptatem necessitatibus in",
+      "color": "rgb(33, 150, 243)",
+      "members": [],
+      "tagList": []
+    },
+    {
+      "id": "1ab6641c-61bc-49a7-9c65-5d98a1c2904c",
+      "userId": "f2557a9a-99f4-490d-9446-645320b8683f",
+      "members": ["f2557a9a-99f4-490d-9446-645320b8683f"],
+      "name": "Project A updated",
+      "description": "wdawd",
+      "color": "rgb(103, 58, 183)",
+      "tagList": []
+    },
+    {
+      "id": "b4dd0b21-3c7c-47ce-989f-e80eaeb83d4b",
+      "userId": "f2557a9a-99f4-490d-9446-645320b8683f",
+      "members": ["f2557a9a-99f4-490d-9446-645320b8683f"],
+      "tagList": [],
+      "name": "dawd",
+      "description": "jfhlsehflse",
+      "color": "rgb(76, 175, 80)"
     }
   ],
-  "families": [
+  "taskList": [
     {
-      "id": 1,
-      "name": "FM001"
+      "id": "9b-41a7-9bd3-273f899e23e36-2b19aa49e",
+      "boardId": "e80ece77-78e7-4d83-b600-9ccf6ce675ce",
+      "name": "To Do",
+      "color": "rgb(255, 117, 117)"
     },
     {
-      "id": 2,
-      "name": "FM002"
+      "id": "8eb1834a-8092-43a3-842d-805817527bed",
+      "boardId": "e80ece77-78e7-4d83-b600-9ccf6ce675ce",
+      "name": "In Progress",
+      "color": "rgb(248, 184, 109)"
     },
     {
-      "id": 3,
-      "name": "FM003"
+      "id": "a50fd858-c907-4e83-b12b-f0b92eddd407",
+      "boardId": "e80ece77-78e7-4d83-b600-9ccf6ce675ce",
+      "name": "Review",
+      "color": "rgb(1, 195, 248)"
+    },
+    {
+      "id": "5f9d4262-ab6d-42cd-a257-87d4baf14cb4",
+      "boardId": "e80ece77-78e7-4d83-b600-9ccf6ce675ce",
+      "name": "Done",
+      "color": "rgb(86, 179, 157)"
     }
   ],
-  "transactions": [
+  "tasks": [
     {
-      "id": 1,
-      "cost": 11,
-      "quantity": 10,
-      "productId": 1
+      "id": "2be0782d-9205-4190-924f-ccde93b3cdf5",
+      "listId": "a50fd858-c907-4e83-b12b-f0b92eddd407",
+      "boardId": "e80ece77-78e7-4d83-b600-9ccf6ce675ce",
+      "subject": "0 Lorem ipsum dolor sit. ",
+      "description": "<p>Lorem i<strong>psum dolor,</strong> sit amet consectetur adipisicing elit. Harum maxime ut nostrum voluptatibus, exercitationem molestias eos obcaecati voluptatem necessitatibus in.</p>",
+      "tags": ["ui", "testing", "deploy"],
+      "dueDate": "07/01/2022",
+      "listIndex": 0,
+      "subTasks": [
+        { "subject": "0 Lorem ipsum dolor sit", "isCompleted": true },
+        { "subject": "1 Lorem ipsum dolor sit. ", "isCompleted": true },
+        { "subject": "3 Lorem ipsum dolor sit. ", "isCompleted": true }
+      ]
     },
     {
-      "id": 2,
-      "cost": 12,
-      "quantity": 100,
-      "productId": 2
+      "id": "83fe40d8-9fed-4414-bdd7-aeab6ff11def",
+      "listId": "8eb1834a-8092-43a3-842d-805817527bed",
+      "boardId": "e80ece77-78e7-4d83-b600-9ccf6ce675ce",
+      "subject": "1 Lorem ipsum dolor sit.",
+      "description": "<p>Lorem ipsum dolor</p>",
+      "tags": ["ui", "testing", "deploy"],
+      "dueDate": "07/05/2022",
+      "listIndex": 0,
+      "subTasks": [
+        { "subject": "0 Lorem ipsum dolor sit. ", "isCompleted": true },
+        { "subject": "1 Lorem ipsum dolor sit. ", "isCompleted": true },
+        { "subject": "3 Lorem ipsum dolor sit. ", "isCompleted": true }
+      ]
     },
     {
-      "id": 3,
-      "cost": 15,
-      "quantity": 101,
-      "productId": 3
+      "id": "64d0baab-f5da-450b-99d7-8f937fe1ea41",
+      "listId": "8eb1834a-8092-43a3-842d-805817527bed",
+      "boardId": "e80ece77-78e7-4d83-b600-9ccf6ce675ce",
+      "subject": "2 Lorem ipsum dolor sit.",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum maxime ut nostrum voluptatibus, exercitationem molestias eos obcaecati voluptatem necessitatibus in.",
+      "tags": ["testing"],
+      "dueDate": "06/30/2022",
+      "listIndex": 3,
+      "subTasks": [
+        { "subject": "0 Lorem ipsum dolor sit. ", "isCompleted": false },
+        { "subject": "1 Lorem ipsum dolor sit. ", "isCompleted": false },
+        { "subject": "3 Lorem ipsum dolor sit. ", "isCompleted": false }
+      ]
+    },
+    {
+      "id": "3e64347d-dfc0-40a4-9ec9-23ee1d92476a",
+      "listId": "8eb1834a-8092-43a3-842d-805817527bed",
+      "boardId": "e80ece77-78e7-4d83-b600-9ccf6ce675ce",
+      "subject": "3 Lorem ipsum dolor",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum maxime ut nostrum voluptatibus, exercitationem molestias eos obcaecati voluptatem necessitatibus in.",
+      "tags": ["ui", "testing", "deploy"],
+      "dueDate": "07/03/2022",
+      "listIndex": 0,
+      "subTasks": [
+        { "subject": "fhsoefpseufp", "isCompleted": true },
+        { "subject": "1 Lorem ipsum dolor sit. ", "isCompleted": true },
+        { "subject": "3 Lorem ipsum dolor sit. ", "isCompleted": false }
+      ],
+      "newSubTask": ""
+    },
+    {
+      "id": "6adfb241-634d-4dd5-b1af-1be6a0ec31a4",
+      "listId": "8eb1834a-8092-43a3-842d-805817527bed",
+      "boardId": "e80ece77-78e7-4d83-b600-9ccf6ce675ce",
+      "subject": "4 Lorem ipsum dolor sit.",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum maxime ut nostrum voluptatibus, exercitationem molestias eos obcaecati voluptatem necessitatibus in.",
+      "tags": ["testing"],
+      "dueDate": "06/30/2022",
+      "listIndex": 4,
+      "subTasks": [
+        { "subject": "0 Lorem ipsum dolor sit. ", "isCompleted": false },
+        { "subject": "1 Lorem ipsum dolor sit. ", "isCompleted": false },
+        { "subject": "3 Lorem ipsum dolor sit. ", "isCompleted": false }
+      ]
+    },
+    {
+      "id": "e09fcc02-02b2-4690-9b03-3e4e5abd5578",
+      "listId": "a50fd858-c907-4e83-b12b-f0b92eddd407",
+      "boardId": "e80ece77-78e7-4d83-b600-9ccf6ce675ce",
+      "subject": "5 Lorem ipsum dolor sit.",
+      "description": "<p>Lorem ipsum dolor,dawd</p>",
+      "tags": ["ui", "testing"],
+      "dueDate": "06/30/2022",
+      "listIndex": 1,
+      "subTasks": [
+        { "subject": "0 Lorem ipsum dolor sit. ", "isCompleted": true },
+        { "subject": "3 Lorem ipsum dolor sit. ", "isCompleted": true }
+      ],
+      "newSubTask": ""
+    },
+    {
+      "id": "3f5bb461-4d1c-4018-a13b-715fe0028f9e",
+      "listId": "a50fd858-c907-4e83-b12b-f0b92eddd407",
+      "boardId": "e80ece77-78e7-4d83-b600-9ccf6ce675ce",
+      "subject": "6 Lorem ipsum dolor sit.",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum maxime ut nostrum voluptatibus, exercitationem molestias eos obcaecati voluptatem necessitatibus in.",
+      "tags": ["testing"],
+      "dueDate": "06/30/2022",
+      "listIndex": 0,
+      "subTasks": [
+        { "subject": "", "isCompleted": true },
+        { "subject": "", "isCompleted": true },
+        { "subject": "", "isCompleted": false },
+        { "subject": "", "isCompleted": false },
+        { "subject": "", "isCompleted": true },
+        { "subject": "", "isCompleted": false },
+        { "isCompleted": false },
+        { "subject": "0 Lorem ipsum dolor sit. ", "isCompleted": false },
+        { "subject": "1 Lorem ipsum dolor sit. ", "isCompleted": false },
+        { "subject": "3 Lorem ipsum dolor sit. ", "isCompleted": false }
+      ],
+      "newSubTask": ""
+    },
+    {
+      "id": "db2fb305-b6a7-4538-9b40-dc60e3f0a068",
+      "listId": "5f9d4262-ab6d-42cd-a257-87d4baf14cb4",
+      "boardId": "e80ece77-78e7-4d83-b600-9ccf6ce675ce",
+      "subject": "7 Lorem ipsum dolor sit.",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum maxime ut nostrum voluptatibus, exercitationem molestias eos obcaecati voluptatem necessitatibus in.",
+      "tags": ["testing"],
+      "dueDate": "06/30/2022",
+      "listIndex": 0,
+      "subTasks": [
+        { "subject": "", "isCompleted": false },
+        { "subject": "", "isCompleted": true },
+        { "subject": "", "isCompleted": false },
+        { "subject": "", "isCompleted": false },
+        { "subject": "", "isCompleted": false },
+        { "isCompleted": false },
+        { "subject": "0 Lorem ipsum dolor sit. ", "isCompleted": false },
+        { "subject": "1 Lorem ipsum dolor sit. ", "isCompleted": false },
+        { "subject": "3 Lorem ipsum dolor sit. ", "isCompleted": false }
+      ],
+      "newSubTask": ""
+    },
+    {
+      "id": "ccb10b69-f5c7-4e9a-ba88-d361b8477506",
+      "listId": "8eb1834a-8092-43a3-842d-805817527bed",
+      "boardId": "e80ece77-78e7-4d83-b600-9ccf6ce675ce",
+      "subject": "8 Lorem ipsum dolor sit. awedawd",
+      "description": "<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum maxime ut nostrum voluptatibus, exercitationem mdawdolestias eos obcaecati voluptatem necessitatibus in.</p>",
+      "tags": ["testing"],
+      "dueDate": "08/06/2022",
+      "listIndex": 1,
+      "subTasks": [
+        { "subject": "task again", "isCompleted": true },
+        { "subject": "test task", "isCompleted": true },
+        { "subject": "0 Lorem ipsum dolor sit. ", "isCompleted": true },
+        { "subject": "1 Lorem ipsum dolor sit. ", "isCompleted": true },
+        { "subject": "3 Lorem ipsum dolor sit. ", "isCompleted": true }
+      ],
+      "newSubTask": ""
+    },
+    {
+      "id": "b76f99b6-9c49-4a63-8a53-3acf22c8e5ed",
+      "listId": "a50fd858-c907-4e83-b12b-f0b92eddd407",
+      "boardId": "e80ece77-78e7-4d83-b600-9ccf6ce675ce",
+      "subject": "9 Lorem ipsum dolor sit.",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum maxime ut nostrum voluptatibus, exercitationem molestias eos obcaecati voluptatem necessitatibus in.",
+      "tags": ["testing"],
+      "dueDate": "06/30/2022",
+      "listIndex": 1,
+      "subTasks": [
+        { "subject": "0 Lorem ipsum dolor sit. ", "isCompleted": false },
+        { "subject": "1 Lorem ipsum dolor sit. ", "isCompleted": false },
+        { "subject": "3 Lorem ipsum dolor sit. ", "isCompleted": false }
+      ]
     }
   ]
 }
